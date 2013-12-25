@@ -554,7 +554,7 @@
 
   <project path="platform_manifest" name="IOKP-kitkat/platform_manifest" remote="iokp-kitkat" revision="kitkat" />
 
-  <project path="vendor/iokp" name="IOKP-kitkat/vendor_iokp" remote="iokp-kitkat" revision="kitkat" />
+  <project path="vendor/iokp" name="IOKP-kitkat/vendor_iokp" remote="iokp-kitkat" revision="kitkat" >
       <copyfile src="tools/build.sh" dest="build.sh" />
   </project>
 
