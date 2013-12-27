@@ -32,6 +32,10 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
+  <remote  name="omnirom"
+           fetch="https://github.com/"
+           review="gerrit.omnirom.org" />
+
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="16" />
