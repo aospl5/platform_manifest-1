@@ -38,6 +38,9 @@
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
 
+  <remote  name="xplodwild"
+           fetch="https://github.com/" />
+
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="16" />
