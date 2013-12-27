@@ -28,9 +28,6 @@
            fetch="https://github.com/PAC-man"
            review="review.pac-rom.com" />
 
-  <remote  name="cm"
-           fetch="https://github.com/" />
-
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
