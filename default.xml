@@ -55,6 +55,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
+  <project path="device/asus/deb" name="IOKP/device_asus_deb" remote="iokp" revision="jb-mr2" groups="notdefault,device,deb" />
   <project path="device/asus/flo" name="AOKP/device_asus_flo" remote="aokp" revision="kitkat" groups="notdefault,device,flo" />
   <project path="device/asus/grouper" name="AOKP/device_asus_grouper" remote="aokp" revision="kitkat" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="AOKP/device_asus_tilapia" remote="aokp" revision="kitkat" groups="notdefault,device,tilapia" />
@@ -104,8 +105,13 @@
   <project path="device/samsung/jfltespr" name="IOKP-kitkat/device_samsung_jfltespr" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltespr" />
   <project path="device/samsung/jfltetmo" name="IOKP-kitkat/device_samsung_jfltetmo" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltetmo" />
   <project path="device/samsung/jfltevzw" name="IOKP-kitkat/device_samsung_jfltevzw" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,jf,jfltevzw" />
+  <project path="device/samsung/jfltecan" name="IOKP/device_samsung_jfltecan" remote="iokp" revision="jb-mr2" groups="notdefault,device,jf,jfltecan" />
+  <project path="device/samsung/jflteatt" name="IOKP/device_samsung_jflteatt" remote="iokp" revision="jb-mr2" groups="notdefault,device,jf,jflteatt" />
   <project path="device/samsung/jflteusc" name="AOKP/device_samsung_jflteusc" remote="aokp" revision="kitkat" groups="notdefault,device,jf,jflteusc" />
   <project path="device/samsung/l900" name="AOKP/device_samsung_l900" remote="aokp" revision="kitkat" groups="notdefault,device,l900" />
+  <project path="device/samsung/n8013" name="IOKP/device_samsung_n8013" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000" />
+  <project path="device/samsung/n8000" name="IOKP/device_samsung_n8000" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8013" />
+  <project path="device/samsung/n80xx-common" name="IOKP/device_samsung_n80xx-common" remote="iokp" revision="jb-mr2" groups="notdefault,device,n8000,n8013" />
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="aokp" revision="kitkat" groups="notdefault,device,maguro" />
   <project path="device/samsung/manta" name="AOKP/device_samsung_manta" remote="aokp" revision="kitkat" groups="notdefault,device,manta" />
   <project path="device/samsung/msm8960-common" name="IOKP-kitkat/device_samsung_msm8960-common" remote="iokp-kitkat" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
@@ -200,6 +206,7 @@
   <project path="external/f2fs-tools" name="AOKP/external_f2fs-tools" remote="aokp" revision="kitkat" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
+  <project path="external/Focal" name="xplodwild/android_external_Focal" remote="xplodwild" revision="master" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="AOKP/external_fsck_msdos" remote="aokp" revision="kitkat" />
   <project path="external/fuse" name="AOKP/external_fuse" remote="aokp" revision="kitkat" />
