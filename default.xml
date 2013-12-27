@@ -34,6 +34,10 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 
+  <remote  name="muppets"
+           fetch="https://github.com/"
+           review="review.cyanogenmod.com" />
+
   <remote  name="omnirom"
            fetch="https://github.com/"
            review="gerrit.omnirom.org" />
