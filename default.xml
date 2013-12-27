@@ -13,11 +13,10 @@
            review="gerrit.aicp-rom.com" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod"
-           review="review.cyanogenmod.org" />
+           fetch="https://github.com/" />
 
   <remote  name="aokp"
-           fetch="https://github.com/AOKP"
+           fetch="https://github.com/"
            review="gerrit.aokp.co" />
 
   <remote  name="pa"
