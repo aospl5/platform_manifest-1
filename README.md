@@ -1,5 +1,14 @@
-INITIALIZING REPOSITORY
-=======================
+[Infamous Open Kang Project](http://www.infamousdevelopment.com/)
+====================================
+
+
+Download the Source
+===================
+
+Please read the [AOSP building instructions](http://source.android.com/source/index.html) before proceeding.
+
+Initializing Repository
+-----------------------
 
 Init core trees without any device/kernel/vendor :
 
