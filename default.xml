@@ -8,6 +8,9 @@
   <remote  name="iokp-kitkat"
            fetch="https://github.com/" />
 
+  <remote  name="iokp"
+           fetch="https://github.com/" />
+
   <remote name="aicp"
            fetch="https://github.com/"
            review="gerrit.aicp-rom.com" />
