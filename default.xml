@@ -57,7 +57,7 @@
   <project path="bionic" name="AOKP/bionic" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-11.0" />
   <project path="cts" name="platform/cts" groups="cts"/>
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
@@ -104,6 +104,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/d2-common" name="AOKP/device_samsung_d2-common" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att,d2tmo,d2usc,d2vzw" />
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2tmo" />
+  <project path="device/samsung/d2att" name="AOKP/device_samsung_d2att" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2att" />
   <project path="device/samsung/d2vzw" name="AOKP/device_samsung_d2vzw" remote="aokp" revision="kitkat" groups="notdefault,device,d2,d2vzw" />
   <project path="device/samsung/i605" name="AOKP/device_samsung_i605" remote="aokp" revision="kitkat" groups="notdefault,device,i605" />
   <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="kitkat" groups="notdefault,device,i9300" />
@@ -352,7 +353,7 @@
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="aokp" revision="kitkat" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/base" name="IOKP-kitkat/frameworks_base" remote="iokp-kitkat" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -360,7 +361,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="kitkat" groups="pdk" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker"/>
@@ -369,7 +370,7 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="cm" revision="cm-11.0" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="AOKP/frameworks_opt_telephony" remote="aokp" revision="kitkat" groups="pdk" />
@@ -420,12 +421,12 @@
   <project path="kernel/motorola/msm8960dt" name="AOKP/kernel_motorola_msm8960dt" remote="aokp" revision="kitkat" groups="notdefault,kernel,ghost,xt1053,xt1060" />
   <project path="kernel/samsung/d2" name="AOKP/kernel_samsung_d2" remote="aokp" revision="kitkat" groups="notdefault,kernel,d2,d2att,d2tmo,d2usc,d2vzw" />
   <project path="kernel/samsung/jf" name="IOKP-kitkat/kernel_samsung_jf" remote="iokp-kitkat" revision="kitkat" groups="notdefault,kernel,jf,jfltespr,jfltetmo,jflteusc,jfltevzw" />
-  <project path="kernel/samsung/hlte" name="IOKP-kitkat/kernel_samsung_hlte" remote="iokp-kitkat" revision="kitkat" groups="notdefault,kernel,hlte,hltetmo,hltexx" />
+  <project path="kernel/samsung/hlte" name="android_kernel_samsung_hlte" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" groups="notdefault,kernel,manta" />
-  <project path="kernel/samsung/smdk4412" name="AOKP/kernel_samsung_smdk4412" remote="aokp" revision="kitkat" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
+  <project path="kernel/samsung/smdk4412" name="omnirom/android_kernel_samsung_smdk4412" remote="omnirom" revision="android-4.4" groups="notdefault,kernel,t0lte,t0lteatt,t0ltetmo,i605,i9300,l900" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" groups="notdefault,kernel,maguro,toro,toroplus" />
-  <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" remote="cm" revision="cm-11.0" groups="notdefault,kernel,yuga,odin" />
-  <project path="kernel/sony/msm8x60" name="CyanogenMod/android_kernel_sony_msm8x60" remote="cm" revision="cm-11.0" groups="notdefault,kernel,tsubasa,mint" />
+  <project path="kernel/sony/apq8064" name="AOKP/kernel_sony_apq8064" remote="aokp" revision="kitkat" groups="notdefault,kernel,yuga,odin" />
+  <project path="kernel/sony/msm8x60" name="AOKP/kernel_sony_msm8x60" remote="aokp" revision="kitkat" groups="notdefault,kernel,tsubasa,mint" />
   <project path="kernel/sony/msm8960t" name="AOKP/kernel_sony_msm8960t" remote="aokp" revision="kitkat" groups="notdefault,kernel,huashan" />
   <project path="libcore" name="AOKP/libcore" remote="aokp" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
